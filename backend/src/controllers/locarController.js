@@ -45,6 +45,8 @@ const getAllLocacao = async(req,res) => {
     catch(e){
         handleServerError(res,e);
     }
+
+    
 };
 
 export default{
