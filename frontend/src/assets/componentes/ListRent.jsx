@@ -40,9 +40,9 @@ return(
                 {rent.length > 0 ? (
                     rent.map((r, index) => (
                         <li key={r.id_usuario ?? index} className="p-2 border-b">
-                            <strong>Usuário:</strong> {r.nome} <br />
-                            <strong>Livro:</strong> {r.titulo} <br />
-                            <strong>Status:</strong> {r.status ? "Ativo" : "Inativo"}
+                            <strong>User:</strong> {r.nome} <br />
+                            <strong>Book:</strong> {r.titulo} <br />
+                            <strong>Status:</strong> {r.status ? "Active" : "Inactive"}
                         </li>
                     ))
                 ) : (
